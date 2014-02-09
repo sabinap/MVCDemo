@@ -1,5 +1,12 @@
 @model SitefinityWebApp.Mvc.Models.DemoModel
+@using Telerik.Sitefinity.DynamicModules.Model
+@using Telerik.Sitefinity.Model
 
 <h1>
     @Html.Raw(Model.Message)
 </h1>
+
+@foreach (DynamicContent unit in Model.Units)
+{
+    <div>@unit.GetValue("Title") <a href='@unit.GetValue("Link").ToString()'></a></div>
+}

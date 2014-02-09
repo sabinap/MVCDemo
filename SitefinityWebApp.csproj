@@ -523,16 +523,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\Core\DynamicModulesAPI.cs" />
+    <Compile Include="Application\Modules\CustomPageSelector\IPageSelectorFieldDefinition.cs" />
+    <Compile Include="Application\Modules\CustomPageSelector\PageSelectorField.cs" />
+    <Compile Include="Application\Modules\CustomPageSelector\PageSelectorFieldDefinition.cs" />
+    <Compile Include="Application\Modules\CustomPageSelector\PageSelectorFieldDefinitionElement.cs" />
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Mvc\Controllers\DemoController.cs" />
     <Compile Include="Mvc\Models\DemoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WidgetDesigners\Demo\DemoDesigner.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Application\Modules\CustomPageSelector\PageSelectorField.ascx" />
+    <Content Include="Application\Modules\CustomPageSelector\PageSelectorField.js" />
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Silverlight.js" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Public\Services\Thunder\ThunderService.svc" />

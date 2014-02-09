@@ -1,0 +1,344 @@
+----------------------------------------
+Timestamp: 2/9/2014 7:52:59 PM
+
+Message: HandlingInstanceID: 5d431777-782b-46c9-a942-72474feb5ed2
+An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+02/09/2014 21:52:59
+Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : A required control was not found in the template for "~/Application/Modules/CustomPageSelector/PageSelectorField.ascx". The control must be assignable from type "System.Web.UI.WebControls.TextBox" and must have ID "fieldBox".
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowException(System.Type, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
+   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
+   at SitefinityWebApp.Application.Modules.CustomPageSelector.PageSelectorField.get_TextBoxControl() in d:\ASP_NET\Demo\Application\Modules\CustomPageSelector\PageSelectorField.cs:line 140
+   at SitefinityWebApp.Application.Modules.CustomPageSelector.PageSelectorField.set_Value(Object value) in d:\ASP_NET\Demo\Application\Modules\CustomPageSelector\PageSelectorField.cs:line 153
+   at Telerik.Sitefinity.Web.UI.Fields.FieldControl.Configure(IFieldDefinition definition)
+   at SitefinityWebApp.Application.Modules.CustomPageSelector.PageSelectorField.Configure(IFieldDefinition definition) in d:\ASP_NET\Demo\Application\Modules\CustomPageSelector\PageSelectorField.cs:line 303
+   at Telerik.Sitefinity.Web.UI.FieldFactory.GetFieldControl(IFieldDefinition definition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Detail.SectionControl.GetConfiguredFieldControl(IFieldDefinition definition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Detail.SectionControl.FieldsRepeater_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.WebControls.CompositeControl.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Detail.DetailFormView.SetUpSections(IEnumerable`1 sections)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.Detail.DetailFormView.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : SABINA
+TimeStamp : 2/9/2014 7:52:59 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/3/ROOT-1-130364443994736951
+ThreadIdentity : admin
+WindowsIdentity : Sabina\Sabinne
+Requested URL : http://localhost:60876/Sitefinity/Dialog/ContentViewInsertDialog?ControlDefinitionName=Telerik.Sitefinity.DynamicTypes.Model.DemoModules.DemomoduleBackendDefinition&ViewName=DemoModuleBackendInsertView&provider=OpenAccessProvider
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA
+
+App Domain: /LM/W3SVC/3/ROOT-1-130364443994736951
+
+ProcessId: 3012
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8496
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/9/2014 7:54:47 PM
+
+Message: HandlingInstanceID: 45496ce9-320a-4312-974f-95921567de83
+An exception of type 'System.Security.Cryptography.CryptographicException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+02/09/2014 21:54:47
+Type : System.Security.Cryptography.CryptographicException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Bad Data.
+
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowCryptographicException(Int32)
+HResult : -2146893819
+Stack Trace :    at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]& outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   at System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Security.Cryptography.CryptoStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at Telerik.Sitefinity.Security.SecurityManager.DecryptData(Byte[] data)
+   at Telerik.Sitefinity.Security.Claims.SitefinityCookieTransform.Decode(Byte[] encoded)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ApplyTransforms(Byte[] cookie, Boolean outbound)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(Byte[] token, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionAuthenticationModule.ReadToken(Byte[] sessionCookie)
+
+Additional Info:
+
+MachineName : SABINA
+TimeStamp : 2/9/2014 7:54:47 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/3/ROOT-1-130364492533070989
+ThreadIdentity : 
+WindowsIdentity : Sabina\Sabinne
+Requested URL : http://localhost:60876/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA
+
+App Domain: /LM/W3SVC/3/ROOT-1-130364492533070989
+
+ProcessId: 7260
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9212
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/9/2014 8:01:21 PM
+
+Message: HandlingInstanceID: 631138ee-5524-4cb5-b407-a94ed4cd99fd
+An exception of type 'System.Security.Cryptography.CryptographicException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+02/09/2014 22:01:21
+Type : System.Security.Cryptography.CryptographicException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Bad Data.
+
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowCryptographicException(Int32)
+HResult : -2146893819
+Stack Trace :    at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]& outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   at System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Security.Cryptography.CryptoStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at Telerik.Sitefinity.Security.SecurityManager.DecryptData(Byte[] data)
+   at Telerik.Sitefinity.Security.Claims.SitefinityCookieTransform.Decode(Byte[] encoded)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ApplyTransforms(Byte[] cookie, Boolean outbound)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(Byte[] token, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionAuthenticationModule.ReadToken(Byte[] sessionCookie)
+
+Additional Info:
+
+MachineName : SABINA
+TimeStamp : 2/9/2014 8:01:21 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/3/ROOT-1-130364496478726667
+ThreadIdentity : 
+WindowsIdentity : Sabina\Sabinne
+Requested URL : http://localhost:60876/62d991c4edd34ab9a9dc663676e9a968/arterySignalR/ping?requestUrl=http://localhost:60876/Sitefinity/Pages&browserName=Chrome&_=1391976065359
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA
+
+App Domain: /LM/W3SVC/3/ROOT-1-130364496478726667
+
+ProcessId: 6204
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8888
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/9/2014 8:01:28 PM
+
+Message: HandlingInstanceID: 23268500-eec4-4045-867d-80d32697aed6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/09/2014 22:01:28
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Demo_Default_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SABINA
+TimeStamp : 2/9/2014 8:01:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/3/ROOT-1-130364496478726667
+ThreadIdentity : admin
+WindowsIdentity : Sabina\Sabinne
+Requested URL : http://localhost:60876/Mvc/Views/Demo/Default.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA
+
+App Domain: /LM/W3SVC/3/ROOT-1-130364496478726667
+
+ProcessId: 6204
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6804
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/9/2014 8:09:55 PM
+
+Message: HandlingInstanceID: 3d49c210-9979-46e1-bcd2-98debb281d41
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/09/2014 22:09:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (>).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : SABINA
+TimeStamp : 2/9/2014 8:09:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/3/ROOT-1-130364496478726667
+ThreadIdentity : 
+WindowsIdentity : Sabina\Sabinne
+Requested URL : http://localhost:60876/home/child-page;Home > Child page
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA
+
+App Domain: /LM/W3SVC/3/ROOT-1-130364496478726667
+
+ProcessId: 6204
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8412
+
+Extended Properties: 
+----------------------------------------

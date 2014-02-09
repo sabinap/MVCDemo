@@ -22,3 +22,9 @@ D:\ASP_NET\Demo\bin\Twitterizer2.xml
 D:\ASP_NET\Demo\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache
 D:\ASP_NET\Demo\obj\Debug\SitefinityWebApp.dll
 D:\ASP_NET\Demo\obj\Debug\SitefinityWebApp.pdb
+D:\ASP_NET\Demo\bin\Telerik.Sitefinity.Thunder.CodeSync.dll
+D:\ASP_NET\Demo\bin\Telerik.Sitefinity.Thunder.Zip.dll
+D:\ASP_NET\Demo\bin\Telerik.Sitefinity.Thunder.Contracts.pdb
+D:\ASP_NET\Demo\bin\Telerik.Sitefinity.Thunder.Module.pdb
+D:\ASP_NET\Demo\bin\Telerik.Sitefinity.Thunder.CodeSync.pdb
+D:\ASP_NET\Demo\bin\Telerik.Sitefinity.Thunder.Zip.pdb
